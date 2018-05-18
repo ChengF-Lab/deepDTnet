@@ -10,32 +10,32 @@ we provide an example script to run experiments with the features already extrac
 
 ### Code and data
 #### `src/` directory
--`auc.m`: evaluation script
--`compute_similarity.m`: compute Jaccard similarity based on association network(i.e., drug-disease, drug-side-effect, and protein-disease networks)
--`imf_train.mexa64`: pre-built binary file of PU-Matrix Completion algorithm 
--`PUMC.m`: predict drug-target interactions (DTIs) with PU-Matrix Completion
--`run_deepDTnet.m`: example code of running deepDTnet for drug-target prediction
+- `auc.m`: evaluation script
+- `compute_similarity.m`: compute Jaccard similarity based on association network(i.e., drug-disease, drug-side-effect, and protein-disease networks)
+- `imf_train.mexa64`: pre-built binary file of PU-Matrix Completion algorithm 
+- `PUMC.m`: predict drug-target interactions (DTIs) with PU-Matrix Completion
+- `run_deepDTnet.m`: example code of running deepDTnet for drug-target prediction
 
 #### `data/` directory
--`drug.txt`: list of drug names
--`protein.txt`: list of protein names
--`disease.txt`: list of disease names
--`se.txt`: list of side effect names
--`drugdrug.txt`: Drug-Drug interaction matrix
--`drugDisease.txt`: Drug-Disease association matrix
--`drugsideEffect.txt`: Drug-SideEffect association matrix
--`drugsim1network.txt`: Drug chemical similarity matrix
--`drugsim2network.txt`: Drug therapeutic similarity matrix
--`drugsim3network.txt`: Drug sequence similarity matrix
--`drugsim4network.txt`: Drug biological processes similarity matrix
--`drugsim5network.txt`: Drug cellular component similarity matrix
--`drugsim6network.txt`: Drug molecular function similarity matrix
--`proteinprotein.txt`: Protein-Protein interaction matrix
--`proteinDisease.txt`: Protein-Disease association matrix
--`proteinsim1network.txt`: Protein sequence similarity matrix
--`proteinsim2network.txt`: Protein biological processes similarity matrix
--`proteinsim3network.txt`: Protein cellular component similarity matrix
--`proteinsim4network.txt`: Protein molecular function similarity matrix
+- `drug.txt`: list of drug names
+- `protein.txt`: list of protein names
+- `disease.txt`: list of disease names
+- `se.txt`: list of side effect names
+- `drugdrug.txt`: Drug-Drug interaction matrix
+- `drugDisease.txt`: Drug-Disease association matrix
+- `drugsideEffect.txt`: Drug-SideEffect association matrix
+- `drugsim1network.txt`: Drug chemical similarity matrix
+- `drugsim2network.txt`: Drug therapeutic similarity matrix
+- `drugsim3network.txt`: Drug sequence similarity matrix
+- `drugsim4network.txt`: Drug biological processes similarity matrix
+- `drugsim5network.txt`: Drug cellular component similarity matrix
+- `drugsim6network.txt`: Drug molecular function similarity matrix
+- `proteinprotein.txt`: Protein-Protein interaction matrix
+- `proteinDisease.txt`: Protein-Disease association matrix
+- `proteinsim1network.txt`: Protein sequence similarity matrix
+- `proteinsim2network.txt`: Protein biological processes similarity matrix
+- `proteinsim3network.txt`: Protein cellular component similarity matrix
+- `proteinsim4network.txt`: Protein molecular function similarity matrix
 
 #### `feature/` directory
 We provided the pre-trained vector representations for the 15 networks, which were used to produce the results in our paper.
