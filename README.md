@@ -1,5 +1,5 @@
 # deepDTnet
-## paper "Target Identification of Known Drugs by Deep Learning from Heterogeneous Networks"
+## paper "Target Identification among Known Drugs by Deep Learning from Heterogeneous Networks"
 
 
 ### Quick start
@@ -49,7 +49,7 @@ The original version of this code base was originally from http://shelson.top/, 
 #### `supplementary/` directory
 - `Supplementary_Table_3.xlsx`: an excel table including 4,978 experimentally validated drug-target interactions connecting 732 approved drugs and 1,915 human targets.
 - `Supplementary_Table_4.xlsx`: an excel table including all target lists for G-protein-coupled receptors (GPCRs), kinases, nuclear receptors (NRs), and ion channels (ICs).
-- `Supplementary_Table_5.xlsx`: an excel table including novel drug-target interactions predicted by deepDTnet with score bove the threshold.
+- `Supplementary_Table_5.xlsx`: an excel table including novel drug-target interactions predicted by deepDTnet with score above the threshold.
 
 
 ### Tutorial
