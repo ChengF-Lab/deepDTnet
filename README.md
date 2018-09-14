@@ -17,10 +17,10 @@ we provide an example script to run experiments with the features already extrac
 - `run_deepDTnet.m`: example code of running deepDTnet for drug-target prediction
 
 #### `data/` directory
-- `drug.txt`: list of drug names
-- `protein.txt`: list of protein names
-- `disease.txt`: list of disease names
-- `se.txt`: list of side effect names
+- `drug.txt`: list of drug unique identifier
+- `protein.txt`: list of protein unique identifier
+- `disease.txt`: list of disease unique identifier
+- `se.txt`: list of side effect unique identifier
 - `drugdrug.txt`: Drug-Drug interaction matrix
 - `drugDisease.txt`: Drug-Disease association matrix
 - `drugsideEffect.txt`: Drug-SideEffect association matrix
@@ -54,6 +54,6 @@ The original version of this code base was originally from http://shelson.top/, 
 
 ### Tutorial
 1. Put interaction/association/similarity matrices in the `data/` folder.
-2. Create a `simNet/` folder under `deepDTnet/` and run `compute_similarity.m`, which will compute the Jaccard similarity of drugs and proteins, based on the three association matrices mentioned above.
-3. run `main.m` in the `DNGR/core` folder for 2 interaction networks ,10 similarity networks in the `data` folder and 3 similarity networks in the `simNet` folder, which will learn the feature vectors of drugs and proteins for the 15 networks and save them in the `feature/` folder.
+2. Create a `simNet/` folder under `deepDTnet/` and run `compute_similarity.m` in the `src/` folder, which will compute the Jaccard similarity of drugs and proteins, based on the three association matrices mentioned above.
+3. run `main.m` in the `DNGR/core` folder for 2 interaction networks ,10 similarity networks in the `data/` folder and 3 similarity networks in the `simNet/` folder, which will learn the feature vectors of drugs and proteins for the 15 networks and save them in the `feature/` folder.
 4. Specify parameters and set the path of feature vectors in `run_deepDTnet.m` and execute it. This script will predict the drug-target interactions and evaluate the results using a five-fold cross-validation.
