@@ -53,6 +53,7 @@ The original version of this code base was originally from http://shelson.top/, 
 
 
 ### Tutorial
+We test the code on Ubuntu 16.04 with Matlab R2016a installed
 1. Put interaction/association/similarity matrices in the `data/` folder.
 2. Create a `simNet/` folder under `deepDTnet/` and run `compute_similarity.m` in the `src/` folder, which will compute the Jaccard similarity of drugs and proteins, based on the three association matrices mentioned above.
 3. run `main.m` in the `DNGR/core` folder for 2 interaction networks ,10 similarity networks in the `data/` folder and 3 similarity networks in the `simNet/` folder, which will learn the feature vectors of drugs and proteins for the 15 networks and save them in the `feature/` folder.
