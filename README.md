@@ -17,10 +17,10 @@ we provide an example script to run experiments with the features already extrac
 - `run_deepDTnet.m`: example code of running deepDTnet for drug-target prediction
 
 #### `data/` directory
-- `drug.txt`: list of drug unique identifier
-- `protein.txt`: list of protein unique identifier
-- `disease.txt`: list of disease unique identifier
-- `se.txt`: list of side effect unique identifier
+- `drug_dict.txt`: list of drug unique identifier and drug names
+- `protein_dict.txt`: list of protein unique identifier and protein names
+- `disease_dict.txt`: list of disease unique identifier and disease names
+- `se_dict.txt`: list of side effect unique identifier and side effect names
 - `drugdrug.txt`: Drug-Drug interaction matrix
 - `drugDisease.txt`: Drug-Disease association matrix
 - `drugsideEffect.txt`: Drug-SideEffect association matrix
